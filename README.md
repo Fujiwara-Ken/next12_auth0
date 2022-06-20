@@ -1,7 +1,6 @@
-# Next12 と tailwindcss の starter example
+# Next12 と auth0 の starter example
 
-Next.js(tailwindcss)の開発用テンプレート
-auth0との連携機能予定。
+Next.js(auth0)の連携サンプル
 
 ## ディレクトリ構成
 
