@@ -1,7 +1,7 @@
 # Next12 と tailwindcss の starter example
 
 Next.js(tailwindcss)の開発用テンプレート
-tailwindcss でない、css framework を使いたい方は各々で設定してください。
+auth0との連携機能予定。
 
 ## ディレクトリ構成
 

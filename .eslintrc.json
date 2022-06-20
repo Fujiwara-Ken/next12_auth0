@@ -32,7 +32,6 @@
           "type",
           "index"
         ],
-        "newlines-between": "always",
         "pathGroupsExcludedImportTypes": ["builtin"],
         "alphabetize": { "order": "asc", "caseInsensitive": true }
       }
