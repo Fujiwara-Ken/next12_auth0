@@ -1,4 +1,5 @@
 /* eslint-disable @typescript-eslint/no-misused-promises */
+// 上記のエラーが出るので調査 https://github.com/typescript-eslint/typescript-eslint/issues/4619
 import { useAuth0 } from '@auth0/auth0-react';
 import styles from '../styles/Home.module.css';
 
