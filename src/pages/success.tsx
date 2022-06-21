@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-misused-promises */
 import { useAuth0 } from '@auth0/auth0-react';
 import styles from '../styles/Home.module.css';
 
@@ -17,7 +18,7 @@ export default function Home() {
       )}
       {!isAuthenticated && (
         <div>
-          <button onClick={() => loginWithRedirect()}>ログイン</button>
+          <button onClick={async (): Promise<void> => await loginWithRedirect()}>ログイン</button>
         </div>
       )}
     </div>
